@@ -1,0 +1,14 @@
+ul li{
+    margin: 10px;
+}
+ul li::after{
+content: "";
+width: 0px;
+height: 3px;
+background-color: black;
+display: block;
+transition: 0.5s;
+}
+ul li:hover::after{
+    width: 80px;
+}
